@@ -188,6 +188,7 @@ Dessa forma, o teste não fica responsável por toda a implementação da comuni
 | [REST](./REST/rest.md)               | Testes e exemplos da API REST       |
 | [k6](./k6/script-json.js)            | Scripts de teste de carga           |
 | [Playwright](./playwright/README.md) | Automação de testes de API          |
+| [Postman](./Postman/postman.md) | Executando GraphQL com Postman          |
 
 ---
 
