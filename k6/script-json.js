@@ -11,6 +11,7 @@ const BASE_URL = __ENV.BASE_URL || 'https://rickandmortyapi.com/graphql';
 
 const graphqlDuration = new Trend('graphql_duration');
 const http200 = new Counter('http_200');
+const http400 = new Counter('http_400');
 const http429 = new Counter('http_429');
 const http500 = new Counter('http_500');
 const graphqlErrors = new Counter('graphql_errors');
@@ -28,7 +29,7 @@ export const options = {
             executor: 'constant-arrival-rate',
             rate: 1, // 1 requisição por segundo
             timeUnit: '1s', // 
-            duration: '60s', // Duração total do teste
+            duration: '5m', // Duração total do teste
             preAllocatedVUs: 2, // Número de VUs pré-alocados
             maxVUs: 10, // Número máximo de VUs que podem ser alocados
         },
@@ -54,6 +55,8 @@ export default function () {
 
     if (response.status === 200) {
         http200.add(1);
+    } else if (response.status === 400) {
+        http400.add(1);
     } else if (response.status === 429) {
         http429.add(1);
     } else if (response.status >= 500) {
