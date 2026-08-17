@@ -1,0 +1,92 @@
+[
+  {
+    "query": "query { characters(page: 1, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 1) { id } episodesByIds(ids: [1, 2]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 2) { id } episodesByIds(ids: [3, 4]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"morty\" }) { info { count } results { name } } location(id: 3) { id } episodesByIds(ids: [5, 6]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"morty\" }) { info { count } results { name } } location(id: 4) { id } episodesByIds(ids: [7, 8]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 3, filter: { name: \"summer\" }) { info { count } results { name } } location(id: 5) { id } episodesByIds(ids: [9, 10]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"beth\" }) { info { count } results { name } } location(id: 6) { id } episodesByIds(ids: [11, 12]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"jerry\" }) { info { count } results { name } } location(id: 7) { id } episodesByIds(ids: [13, 14]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 3, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 8) { id } episodesByIds(ids: [15, 16]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 4, filter: { name: \"morty\" }) { info { count } results { name } } location(id: 9) { id } episodesByIds(ids: [17, 18]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 5, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 10) { id } episodesByIds(ids: [19, 20]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"summer\" }) { info { count } results { name } } location(id: 11) { id } episodesByIds(ids: [21, 22]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"beth\" }) { info { count } results { name } } location(id: 12) { id } episodesByIds(ids: [23, 24]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"jerry\" }) { info { count } results { name } } location(id: 13) { id } episodesByIds(ids: [25, 26]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"bird\" }) { info { count } results { name } } location(id: 14) { id } episodesByIds(ids: [27, 28]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"smith\" }) { info { count } results { name } } location(id: 15) { id } episodesByIds(ids: [29, 30]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"alien\" }) { info { count } results { name } } location(id: 16) { id } episodesByIds(ids: [31, 32]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 17) { id } episodesByIds(ids: [33, 34]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"summer\" }) { info { count } results { name } } location(id: 18) { id } episodesByIds(ids: [35, 36]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"gene\" }) { info { count } results { name } } location(id: 19) { id } episodesByIds(ids: [37, 38]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 20) { id } episodesByIds(ids: [39, 40]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"morty\" }) { info { count } results { name } } location(id: 21) { id } episodesByIds(ids: [41, 42]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"summer\" }) { info { count } results { name } } location(id: 22) { id } episodesByIds(ids: [43, 44]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"beth\" }) { info { count } results { name } } location(id: 23) { id } episodesByIds(ids: [45, 46]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"jerry\" }) { info { count } results { name } } location(id: 24) { id } episodesByIds(ids: [47, 48]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 2, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 25) { id } episodesByIds(ids: [49, 50]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"morty\" }) { info { count } results { name } } location(id: 26) { id } episodesByIds(ids: [1, 10]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"summer\" }) { info { count } results { name } } location(id: 27) { id } episodesByIds(ids: [5, 15]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"beth\" }) { info { count } results { name } } location(id: 28) { id } episodesByIds(ids: [10, 20]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"jerry\" }) { info { count } results { name } } location(id: 29) { id } episodesByIds(ids: [15, 25]) { id } }"
+  },
+  {
+    "query": "query { characters(page: 1, filter: { name: \"rick\" }) { info { count } results { name } } location(id: 30) { id } episodesByIds(ids: [20, 30]) { id } }"
+  }
+]
