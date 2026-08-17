@@ -78,6 +78,14 @@ Contém scripts para testes de carga e performance.
 <img src="./images/k6.png">
 </div>
 
+### Postman
+
+O Postman pode ser utilizado para criar, executar e validar requisições GraphQL de forma visual, facilitando a exploração da API e a criação de cenários de teste.
+
+* [Postman](./Postman/postman.md)
+
+Neste projeto, utilizaremos o Postman para consultar a Rick and Morty API através de GraphQL.
+
 ### Playwright
 
 Contém a automação dos testes de API utilizando Playwright.
